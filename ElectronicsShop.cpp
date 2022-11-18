@@ -1,3 +1,7 @@
+#include <bits/stdc++.h>
+using namespace std;
+vector<string> split_string(string);
+
 int getMoneySpent(vector<int> keyboards, vector<int> drives, int b)
 {
     int sum_max = -1;
