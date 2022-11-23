@@ -1,7 +1,5 @@
 #include <bits/stdc++.h>
-
 using namespace std;
-
 vector<string> split_string(string);
 
 /*
@@ -37,9 +35,7 @@ int main()
     vector<string> bnm = split_string(bnm_temp);
 
     int b = stoi(bnm[0]);
-
     int n = stoi(bnm[1]);
-
     int m = stoi(bnm[2]);
 
     string keyboards_temp_temp;
